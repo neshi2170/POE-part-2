@@ -2,18 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.quickchat.chatapp2;
 
 /**
  *
  * @author RC_Student_lab
  */
 class Registration {
-   
-
-   
-
-    public boolean isValidUsername(String username) {
+     public boolean isValidUsername(String username) {
         return username.length() <= 5 && username.contains("_");
     }
 
@@ -33,6 +28,6 @@ class Registration {
 
     public boolean isValidPhoneNumber(String phone) {
         return phone.matches("^\\+27\\d{9}$");
-    }
+}
 }
 
